@@ -1,0 +1,20 @@
+/* css/styles.css */
+
+/* Center the form vertically */
+body, html {
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+/* .image-container img {
+    width: 250px; 
+    height: 250px; 
+    object-fit: cover;
+    border-radius: 50%; 
+} */

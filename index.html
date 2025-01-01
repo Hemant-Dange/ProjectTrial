@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PG and Hostel Management System</title>
+    <!-- Bootstrap 4 CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Font Awesome for Social Media Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        .image-container img {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 50%; /* Makes the images round */
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: navy;">
+        <a class="navbar-brand" href="index.html"><img src="./images/logoForHostel.jpg" alt="Hostel Management Logo" style="height: 40px"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="tenantLogin.html">Tenant Login</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="managerLogin.html">Hostel Owner Login</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="tenantRegister.html">Register</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container mt-5">
+        <h2 class="text-center mb-4">Welcome to PG and Hostel Management System</h2>
+        <div class="row justify-content-center">
+            <div class="col-md-6 text-center">
+                <!-- Tenant Login Image -->
+                <div class="image-container">
+                    <a href="tenantLogin.html">
+                        <img src="images/userIcon.png" alt="Tenant Login" class="col-md-6 img-fluid mb-3">
+                    </a>
+                </div>
+                <p class="font-weight-bold">Tenant Login</p>
+            </div>
+            <div class="col-md-6 text-center">
+                <!-- Manager Login Image -->
+                <div class="image-container">
+                    <a href="managerLogin.html">
+                        <img src="images/managerIcon.png" alt="Manager Login" class="col-md-6 img-fluid mb-3">
+                    </a>
+                </div>
+                <p class="font-weight-bold">Hostel Owner Login</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white mt-5">
+        <div class="container py-4">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5>About Us</h5>
+                    <p>We provide a seamless platform for managing PGs and hostels with ease and efficiency.</p>
+                </div>
+                <div class="col-md-6 text-center">
+                    <h5>Contact Us</h5>
+                    <p>Email: support@hostelmanagement.com | Phone: +123 456 7890</p>
+                    <div>
+                        <a href="#" class="text-white mx-2">
+                            <i class="fab fa-facebook fa-2x"></i>
+                        </a>
+                        <a href="#" class="text-white mx-2">
+                            <i class="fab fa-instagram fa-2x"></i>
+                        </a>
+                        <a href="#" class="text-white mx-2">
+                            <i class="fab fa-twitter fa-2x"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="text-center py-2" style="background-color: #111;">
+            <small>&copy; 2024 PG and Hostel Management System. All rights reserved.</small>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="scripts/scripts.js"></script>
+</body>
+</html>
